@@ -7,8 +7,8 @@ difference()
 		translate([-36,-10,0])
 			cube([10,20,7]);
 		// PCB Holder
-		translate([-10,-38,0])
-			cube([20,10,7]);
+		translate([-10,-40,0])
+			cube([20,12,7]);
 		// 
 		translate([26,-6,0])
 			cube([15,12,7]);
@@ -22,10 +22,10 @@ difference()
 	translate([35,-8,3.5])
 		rotate([-90,0,0])
 			cylinder(h=16,r=1.5,$fn=100);
-	translate([6,-38.5,3.5])
+	translate([6,-40.5,3.5])
 		rotate([-90,0,0])
 			cylinder(h=8,r=1,$fn=100);
-	translate([-6,-38.5,3.5])
+	translate([-6,-40.5,3.5])
 		rotate([-90,0,0])
 			cylinder(h=8,r=1,$fn=100);
 }

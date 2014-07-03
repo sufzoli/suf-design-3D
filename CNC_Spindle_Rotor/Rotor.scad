@@ -47,12 +47,12 @@ difference()
 }
 difference()
 {
-	cylinder(h=2,r=33, $fn=100);
+	cylinder(h=2,r=35, $fn=100);
 	translate([0,0,-0.1])
 		cylinder(h=2.2,r=28, $fn=100);
 	for(j=[0:59])
 		rotate([0,0,6*j])
-			translate([0,30.5,-0.1])
+			translate([0,32.5,-0.1])
 				cylinder(h=2.2,r=1, $fn=25);
 }
 

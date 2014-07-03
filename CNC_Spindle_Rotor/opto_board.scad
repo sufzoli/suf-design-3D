@@ -1,0 +1,20 @@
+
+translate([20,6.95,0])
+	difference()
+	{
+		color("black",a=1.0)
+			cube([14,6.1,10]);
+		translate([4.5,-0.5,2.5])
+			color("gray",a=1.0)
+				cube([5,7,8]);
+	}
+difference()
+{
+	translate([0,0,-1.6])
+		color("green",a=1.0)
+			cube([50,20,1.6]);
+	translate([4,4,-2])
+		cylinder(h=2.5,r=1.5,$fn=100);
+	translate([4,16,-2])
+		cylinder(h=2.5,r=1.5,$fn=100);
+}

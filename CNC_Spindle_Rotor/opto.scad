@@ -1,0 +1,9 @@
+color("black",a=1.0)
+{
+	difference()
+	{
+			cube([14,6.1,10]);
+		translate([4.5,-0.5,2.5])
+			cube([5,7,8]);
+	}
+}

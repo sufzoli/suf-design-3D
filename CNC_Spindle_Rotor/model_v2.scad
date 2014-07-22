@@ -24,6 +24,8 @@ NumLayers = Width/LayerHight;
 
 translate([0,0,10])
 {
+color("lightblue")
+{
 difference()
 {
 	cylinder(h=19.7,r=28, $fn=100);
@@ -58,6 +60,7 @@ difference()
 		rotate([0,0,6*j])
 			translate([0,32.5,-0.1])
 				cylinder(h=2.2,r=1, $fn=25);
+}
 }
 }
 
